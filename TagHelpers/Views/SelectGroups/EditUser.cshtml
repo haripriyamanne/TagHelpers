@@ -1,0 +1,11 @@
+﻿@model TagHelpers.Models.EditUserViewModel
+
+<form asp-action="UpdateUser" method="post">
+    <input asp-for="User.FirstName" placeholder="First name" />
+    <input asp-for="User.LastName" placeholder="Last name" />
+
+    <select asp-items="@(new SelectList(Model.Countries))" asp-for="User.Country"></select>
+    <textarea asp-for="Description"></textarea>
+
+    <input type="submit" value="Save" />
+</form>

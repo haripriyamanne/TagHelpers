@@ -1,0 +1,12 @@
+﻿
+<ul>
+    @foreach (var movie in Model)
+    {
+        <li>
+            <a asp-controller="Movie" asp-action="Details" asp-route-id="@movie.Id">@movie.Title</a>
+        </li>
+    }
+</ul>
+<a asp-controller="Movie" asp-action="List" asp-host="google.com">Movie list</a>
+<br>
+<a asp-controller="Movie" asp-action="List" asp-host="google.com" asp-protocol="https">Movie list</a>

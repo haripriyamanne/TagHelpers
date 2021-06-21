@@ -22,6 +22,10 @@ namespace TagHelpers.Controllers
         {
             return View();
         }
+        public IActionResult TagHelpers()
+        {
+            return View();
+        }
 
         public IActionResult Privacy()
         {
