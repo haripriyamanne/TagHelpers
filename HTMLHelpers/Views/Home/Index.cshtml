@@ -1,0 +1,20 @@
+﻿@model HTMLHelpers.Models.StudentModel;
+
+@Html.LabelFor(m => m.StudentName)
+@Html.TextBoxFor(m => m.StudentName, new { @class = "form-control" })
+@Html.LabelFor(m => m.Description)
+@Html.TextAreaFor(m => m.Description, new { @class = "form-control" })
+@Html.LabelFor(m => m.isActive)
+@Html.CheckBoxFor(m => m.isActive)
+@Html.RadioButtonFor(m => m.Gender, "Male")
+@Html.RadioButtonFor(m => m.Gender, "Female")<br />
+@Html.LabelFor(m => m.Branch)
+@Html.DropDownListFor(m => m.Branch,
+            new SelectList(Enum.GetValues(typeof(Branch))),
+            "Select Branch", new { @class = "form-control" })
+@Html.LabelFor(m => m.Password)
+@Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+
+@Html.LabelFor(m => m.StudentId)
+@Html.EditorFor(m => m.StudentId, new { @class = "form-control" })
+<br />
