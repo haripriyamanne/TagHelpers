@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TagHelpers", "TagHelpers\TagHelpers.csproj", "{4B252D00-A2A6-4F0A-BD0F-C4F33C6EB583}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTMLHelpers", "HTMLHelpers\HTMLHelpers.csproj", "{BE1DD2B5-8B01-4852-ACC5-57F1B681C4DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HTMLHelpers", "HTMLHelpers\HTMLHelpers.csproj", "{BE1DD2B5-8B01-4852-ACC5-57F1B681C4DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomTagHelpers", "CustomTagHelpers\CustomTagHelpers.csproj", "{C5E7A1C3-4495-42F6-9234-D9054EB7AF6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomHTMLHelpers", "CustomHTMLHelpers\CustomHTMLHelpers.csproj", "{5DD33153-92EC-447B-9580-97B8C26FC203}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{BE1DD2B5-8B01-4852-ACC5-57F1B681C4DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE1DD2B5-8B01-4852-ACC5-57F1B681C4DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE1DD2B5-8B01-4852-ACC5-57F1B681C4DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5E7A1C3-4495-42F6-9234-D9054EB7AF6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5E7A1C3-4495-42F6-9234-D9054EB7AF6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5E7A1C3-4495-42F6-9234-D9054EB7AF6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5E7A1C3-4495-42F6-9234-D9054EB7AF6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DD33153-92EC-447B-9580-97B8C26FC203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DD33153-92EC-447B-9580-97B8C26FC203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DD33153-92EC-447B-9580-97B8C26FC203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DD33153-92EC-447B-9580-97B8C26FC203}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
